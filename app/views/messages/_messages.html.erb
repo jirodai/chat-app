@@ -17,5 +17,6 @@
     <%= messages.content%>
 
     </div>
+     <%= image_tag messages.image, class: 'message-image' if messages.image.attached? %>
   </div>
 </div>
